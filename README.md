@@ -11,7 +11,7 @@ This is a prototype of a tool to listen for ARP requests to a particular IP addr
 # startup
 First compile the program by doing *make*.
 At the moment start the tool by:
-nohup ./arp2wol <arguments>
+nohup ./arp2wol *arguments...*
 
 I am still looking for a straight forward way for self-daemonization of the program. Suggestions are welcome.
 
